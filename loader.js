@@ -1,5 +1,5 @@
 (function () {
-  const PAYLOAD_URL = "https://cdn.jsdelivr.net/gh/Forgot-ai/scg@b02cff5cb43bd0d42ce0579cbc8a1310dedfb449/payload.js";
+  const PAYLOAD_URL = "https://cdn.jsdelivr.net/gh/Forgot-ai/scg@main/payload.js";
 
   const CSS = `
     #lockgate { position: fixed; inset: 0; z-index: 2147483647; overflow: hidden; background: #000;
