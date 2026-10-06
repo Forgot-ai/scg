@@ -138,7 +138,7 @@
       const key = input.value;
       if (!key) { err.textContent = "Enter a key."; return; }
       err.textContent = "";
-      btn.disabled = true; input.disabled = true; btn.textContent = "Checking\u2026";
+      btn.disabled = true; input.disabled = true; btn.textContent = "Checking…";
       let who = null;
       try { who = await unlock(key); }
       catch (e) { fail(e && e.message === "nocrypto" ? "This page needs https to unlock." : "Couldn't reach the file."); return; }
